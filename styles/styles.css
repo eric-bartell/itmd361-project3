@@ -4,7 +4,6 @@ nav{
   margin:0 auto;
   background-color:#a5a5a5;
   position: fixed;
-  vertical-align: top;
 }
 nav li{
   display:inline;
