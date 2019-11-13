@@ -1,0 +1,62 @@
+nav{
+  width:100%;
+  text-align:center;
+  margin:0 auto;
+  background-color:#a5a5a5;
+}
+nav li{
+  display:inline;
+  text-align:center;
+}
+nav a {
+  font-family:'Ubuntu', sans-serif;
+  font-size:28px;
+  font-weight:600;
+  color:#600000;
+  display:inline-block;
+  text-align:center;
+  padding:5px;
+}
+nav a:hover{
+  background-color: #600000;
+  color:#a5a5a5;
+}
+nav a:active{
+  color:#a5a5a5;
+  background-color:black; 
+}
+body{
+  background-color:#dbdbdb;
+}
+h1{
+  font-family:'Ubuntu', sans-serif;
+  font-size:40px;
+  color:#600000;
+  margin-left:12px;
+}
+h2{
+  font-family:'Ubuntu', sans-serif;
+  font-size:20px;
+  font-style:italic;
+  margin-left:14px;
+}
+p{
+  font-family:"Trebuchet MS", Helvetica, sans-serif;  
+  margin-left:16px;
+}
+iframe{
+  border:8px solid #600000;
+  max-width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  border:50px solid #600000;
+  border-width:50px;
+  max-width:50%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
