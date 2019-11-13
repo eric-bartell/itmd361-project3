@@ -61,3 +61,32 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 768px) /*Mobile */
+{
+  h2{
+    text-align: center;
+  }
+  p{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: left;
+  }
+  img{
+    margin: auto;
+  }
+}
+@media screen and (min-width: 900px) /*Tablet */
+{
+  h2{
+    text-align: left;
+  }
+  p{
+    width: 60%;
+    padding: 12px;
+    text-align: left;
+  }
+  img{
+    margin: auto;
+  }
+}
