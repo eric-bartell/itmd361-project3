@@ -11,12 +11,12 @@ nav li{
 }
 nav a {
   font-family:'Ubuntu', sans-serif;
-  font-size:20px;
+  font-size:28px;
   font-weight:600;
   color:#600000;
   display:inline-block;
   text-align:center;
-  padding:2px;
+  padding:5px;
 }
 nav a:hover{
   background-color: #600000;
