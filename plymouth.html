@@ -2,11 +2,10 @@
 <html lang="en">
   <head>
     <title>Plymouth</title>
+    <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script async src="assets/js/locations.js"></script>
     <style>
       #map {
         height: 50%;
@@ -19,6 +18,14 @@
       }
     </style>
   </head>
+  <nav>
+    <ul>
+      <li> <a href="resume.html" Title="Resume">Resume</a></li>
+      <li> <a href="index.html" Title="About Me">About Me</a></li>
+      <li> <a href="japantrip.html" Title="Japan Trip">My Trip to Japan</a></li>
+      <li> <a href="plymouth.html" Title="Plymouth">Plymouth</a></li>
+    </ul>
+  </nav>
   <body>
     <script>
       var map;
@@ -29,6 +36,6 @@
         });
       }
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-iKURDImKjPzto7zm3e22a8Iks41WBEs&callback=initMap"</script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-iKURDImKjPzto7zm3e22a8Iks41WBEs&callback=initMap"async defer></script>
   </body>
 </html>
