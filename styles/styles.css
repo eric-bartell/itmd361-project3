@@ -1,6 +1,7 @@
 nav{
   width:100%;
   text-align:center;
+  margin: 5px auto;
   background-color:#a5a5a5;
   position: fixed;
 }
@@ -26,7 +27,6 @@ nav a:active{
   background-color:black; 
 }
 body{
-  padding-top: 80px;
   background-color:#dbdbdb;
 }
 h1{
