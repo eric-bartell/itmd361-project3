@@ -1,7 +1,6 @@
 nav{
   width:100%;
   text-align:center;
-  margin: 5px auto;
   background-color:#a5a5a5;
   position: fixed;
 }
@@ -16,6 +15,7 @@ nav a {
   color:#600000;
   display:inline-block;
   text-align:center;
+  padding:5px;
 }
 nav a:hover{
   background-color: #600000;
