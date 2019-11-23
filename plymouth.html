@@ -33,12 +33,32 @@
         {
           center: {lat: 42.370776, lng: -83.469088},
           zoom: 15,
-          maptypeID: google.maps.MapTypeId.HYBRID
+          mapTypeId:google.maps.MapTypeId.HYBRID
         });
-        var barrios = new google.maps.Marker({position: {lat: 42.368685, lng: -83.470652}, map: map, animation: google.maps.Animation.DROP, icon: "images/star.png"});
-        var nicoandvali = new google.maps.Marker({position: {lat: 42.367811, lng: -83.468986}, map: map, animation: google.maps.Animation.DROP, icon: "images/star.png"});
-        var maxandbellas = new google.maps.Marker({position: {lat: 42.369672, lng: -83.467245}, map: map, animation: google.maps.Animation.DROP, icon: "images/star.png"});
-        var dairyking = new google.maps.Marker({position: {lat: 42.371969, lng: -83.468190}, map: map, animation: google.maps.Animation.DROP, icon: "images/star.png"})
+        var barrios = new google.maps.Marker(
+        {
+          position: {lat: 42.368685, lng: -83.470652}, 
+          map: map, 
+          animation: google.maps.Animation.DROP, 
+          icon: "images/star.png"});
+        var nicoandvali = new google.maps.Marker(
+        {
+          position: {lat: 42.367811, lng: -83.468986},
+          map: map,
+          animation: google.maps.Animation.DROP,
+          icon: "images/star.png"});
+        var maxandbellas = new google.maps.Marker(
+        {
+          position: {lat: 42.369672, lng: -83.467245},
+          map: map,
+          animation: google.maps.Animation.DROP,
+          icon: "images/star.png"});
+        var dairyking = new google.maps.Marker(
+        {
+          position: {lat: 42.371969, lng: -83.468190},
+          map: map,
+          animation: google.maps.Animation.DROP,
+          icon: "images/star.png"})
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-iKURDImKjPzto7zm3e22a8Iks41WBEs&callback=initMap"
