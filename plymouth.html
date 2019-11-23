@@ -15,6 +15,11 @@
         margin: 20px;
         padding: 20px;
       }
+      p{
+        margin: 5px;
+        padding: 5px;
+        font-size: 16px;
+      }
     </style>
   </head>
   <body>
@@ -41,7 +46,7 @@
           map: map, 
           animation: google.maps.Animation.DROP, 
           icon: "images/star.png"});
-        var barriosinfo = new google.maps.InfoWindow({content: '<p><b>Barrio Cocina y Tequileria</b>: Contemporary Mexican cuisine served in a vibrant bi-level space with a patio.</p>'});
+        var barriosinfo = new google.maps.InfoWindow({content: '<p>Barrio Cocina y Tequileria: Contemporary Mexican cuisine served in a vibrant bi-level space with a patio.</p>'});
         barrios.addListener('mouseover', function(){barriosinfo.open(map,barrios);});
         barrios.addListener('mouseout', function(){barriosinfo.close();});
         var nicoandvali = new google.maps.Marker(
