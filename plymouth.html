@@ -6,16 +6,37 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/normalize.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-iKURDImKjPzto7zm3e22a8Iks41WBEs&callback=initMap" async defer></script>
+    <style>
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
-  <nav>
-    <ul>
-      <li> <a href="resume.html" Title="Resume">Resume</a></li>
-      <li> <a href="index.html" Title="About Me">About Me</a></li>
-      <li> <a href="japantrip.html" Title="Japan Trip">My Trip to Japan</a></li>
-      <li> <a href="plymouth.html" Title="Plymouth">Plymouth</a></li>
-    </ul>
-  </nav>
+    <nav>
+      <ul>
+        <li> <a href="resume.html" Title="Resume">Resume</a></li>
+        <li> <a href="index.html" Title="About Me">About Me</a></li>
+        <li> <a href="japantrip.html" Title="Japan Trip">My Trip to Japan</a></li>
+        <li> <a href="plymouth.html" Title="Plymouth">Plymouth</a></li>
+      </ul>
+    </nav>
+    <div id="map"></div>  
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    async defer></script>
   </body>
 </html>
