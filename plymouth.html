@@ -37,7 +37,7 @@
         var map = new google.maps.Map(document.getElementById('map'), 
         {
           center: {lat: 42.370776, lng: -83.469088},
-          zoom: 15,
+          zoom: 17,
           mapTypeId:google.maps.MapTypeId.HYBRID
         });
         var barrios = new google.maps.Marker(
@@ -55,18 +55,27 @@
           map: map,
           animation: google.maps.Animation.DROP,
           icon: "images/star.png"});
+        var nicoandvaliinfo = new google.maps.InfoWindow({content: '<p>Nico and Vali Italian Eatery: Family-run spot for classic Italian dinners & light meals in a cheerful, frescoed setting.</p>'});
+        nicoandvali.addListener('mouseover', function(){nicoandvaliinfo.open(map,nicoandvali);});
+        nicoandvali.addListener('mouseout', function(){nicoandvaliinfo.close();});
         var maxandbellas = new google.maps.Marker(
         {
           position: {lat: 42.369672, lng: -83.467245},
           map: map,
           animation: google.maps.Animation.DROP,
           icon: "images/star.png"});
+        var maxandbellasinfo = new google.maps.InfoWindow({content: '<p>Max and Bellas Smokehouse: Comfort food, Outdoor seating, Quick bite.</p>'});
+        maxandbellas.addListener('mouseover', function(){maxandbellasinfo.open(map,maxandbellas);});
+        maxandbellas.addListener('mouseout', function(){maxandbellasinfo.close();});
         var dairyking = new google.maps.Marker(
         {
           position: {lat: 42.371969, lng: -83.468190},
           map: map,
           animation: google.maps.Animation.DROP,
           icon: "images/star.png"})
+        var dairykinginfo = new google.maps.InfoWindow({content: '<p>Dairy King: Old-school counter-serve featuring classic ice cream options, plus inside seats & a walk-up window.</p>'});
+        dairyking.addListener('mouseover', function(){dairykinginfo.open(map,dairyking);});
+        dairyking.addListener('mouseout', function(){dairykinginfo.close();});
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-iKURDImKjPzto7zm3e22a8Iks41WBEs&callback=initMap"
