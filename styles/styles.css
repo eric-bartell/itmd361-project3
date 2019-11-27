@@ -2,6 +2,7 @@ nav{
   width:100%;
   text-align:center;
   margin: 5px auto;
+  top: 0;
   background-color:#a5a5a5;
   position: fixed;
 }
@@ -26,9 +27,11 @@ nav a:active{
   color:#a5a5a5;
   background-color:black; 
 }
+head{
+  margin-bottom: 90px;
+}
 body{
   background-color:#dbdbdb;
-  margin-top: 40px;
 }
 h1{
   font-family:'Ubuntu', sans-serif;
