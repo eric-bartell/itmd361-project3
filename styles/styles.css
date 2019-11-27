@@ -11,8 +11,11 @@ nav a {
   color:#600000;
   display:inline-block;
   text-align:center;
-  text-decoration: none;
   padding:5px;
+}
+nav li{
+  display:inline;
+  text-align:center;
 }
 nav a:hover{
   background-color: #600000;
