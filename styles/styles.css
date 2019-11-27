@@ -1,12 +1,7 @@
 nav{
   width:100%;
-  text-align:center;
   top: 0;
   background-color:#a5a5a5;
-}
-nav li{
-  display:inline;
-  text-align:center;
 }
 nav a {
   font-family:'Ubuntu', sans-serif;
@@ -25,9 +20,6 @@ nav a:active{
   color:#a5a5a5;
   background-color:black; 
 }
-head{
-  margin-bottom: 90px;
-}
 body{
   background-color:#dbdbdb;
 }
@@ -44,7 +36,7 @@ h2{
   margin-left:14px;
   text-align: left;
 }
-p{
+p, li{
   font-family:"Trebuchet MS", Helvetica, sans-serif;  
   margin-left:16px;
 }
