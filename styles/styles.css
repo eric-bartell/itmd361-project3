@@ -76,7 +76,7 @@ img{
 @media screen and (min-width: 768px) /*Mobile */
 {
   html{
-    margin-left: 160px;
+    margin-left: 180px;
     padding: 0px 10px;
   }
   h2{
@@ -91,7 +91,8 @@ img{
     margin: auto;
   }
   nav{
-    width: 160px; 
+    height: 100% 
+    width: 180px; 
     position: fixed;
     top: 0;
     left: 0;
@@ -100,7 +101,7 @@ img{
     text-align: left;
   }
   nav a{
-    padding: 6px 8px 6px 16px;
+    padding: 2px 8px 6px 16px;
     display: block;
   }
 }
