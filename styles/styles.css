@@ -73,14 +73,15 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 768px) /*Mobile */
+@media screen and (max-width: 768px) /*Mobile */
 {
-  p{
-    padding: 10px;
-  }
 }
-@media screen and (min-width: 900px) /*Tablet */
+@media screen and (max-width: 900px) /*Tablet */
 {
+  html{
+    margin-left: 200px;
+    padding: 0px 10px;
+  }
   h2{
     text-align: center;
   }
@@ -93,7 +94,7 @@ img{
     margin: auto;
   }
   nav{
-    width: auto; 
+    width: 200px; 
     position: fixed;
     top: 0;
     left: 0;
