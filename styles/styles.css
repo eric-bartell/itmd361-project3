@@ -102,7 +102,7 @@ img{
     text-align: left;
   }
 }
-@media screen and (max-device-width: 1024px) and (orientation: landscape)  /*Tablet */
+@media screen and (max-device-width: 1024px)  /*Tablet */
 {
   h1, h2, p, li{
     font-size: 16px;
