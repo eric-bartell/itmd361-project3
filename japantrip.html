@@ -20,11 +20,19 @@
   </nav>
     <h1>My Trip to Japan</h1>
     <p>From mid-July to late-August of 2019, I completed a study-abroad program that took place in Japan. While I was there, I worked on my capstone project: studying the history of graffiti in Japan and how it influenced the development of the video game Jet Set Radio. Here are some photos I took while I was there.</p>
-
-    <script>
-      (function() {if (Galleria) { $("body").text('Galleria works') }}());
-    </script>
-
+    <div class="galleria">
+      <img src="images/tokyo_at_night.jpg">
+      <img src="images/genbaku_dome.jpg">
+      <img src="images/himeji_castle.jpg">
+      <img src="images/itsukushima_shrine.jpg">
+      <img src="images/kyoto_bridge.jpg">
+    </div>
+      <script>
+        (function() {
+          Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+          Galleria.run('.galleria');
+        }());
+      </script>
     <img src = "images/tokyo_at_night.jpg" alt = "Tokyo At Night" />
     <p>For the first two weeks, we stayed in Tokyo. It was the tail-end of the rainy season while we were there, but that made it all the more beautiful at night.</p>
     
