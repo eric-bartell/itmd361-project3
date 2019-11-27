@@ -8,45 +8,31 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js\galleria-1.6.1\dist\galleria.min.js"></script>
+    <nav>
+      <ul>
+        <li> <a href="resume.html" Title="Resume">Resume</a></li>
+        <li> <a href="index.html" Title="About Me">About Me</a></li>
+        <li> <a href="japantrip.html" Title="Japan Trip">My Trip to Japan</a></li>
+        <li> <a href="plymouth.html" Title="Plymouth">Plymouth</a></li>
+      </ul>
+    </nav>
   </head>
   <body>
-  <nav>
-    <ul>
-      <li> <a href="resume.html" Title="Resume">Resume</a></li>
-      <li> <a href="index.html" Title="About Me">About Me</a></li>
-      <li> <a href="japantrip.html" Title="Japan Trip">My Trip to Japan</a></li>
-      <li> <a href="plymouth.html" Title="Plymouth">Plymouth</a></li>
-    </ul>
-  </nav>
     <h1>My Trip to Japan</h1>
     <p>From mid-July to late-August of 2019, I completed a study-abroad program that took place in Japan. While I was there, I worked on my capstone project: studying the history of graffiti in Japan and how it influenced the development of the video game Jet Set Radio. Here are some photos I took while I was there.</p>
+
     <div class="galleria">
-      <img src="images/tokyo_at_night.jpg">
-      <img src="images/genbaku_dome.jpg">
-      <img src="images/himeji_castle.jpg">
-      <img src="images/itsukushima_shrine.jpg">
-      <img src="images/kyoto_bridge.jpg">
+      <img src="images/tokyo_at_night.jpg" data-title="Tokyo At Night" data-description="For the first two weeks, we stayed in Tokyo. It was the tail-end of the rainy season while we were there, but that made it all the more beautiful at night.">
+      <img src="images/genbaku_dome.jpg" data-title="Genbaku Dome" data-description="During the next week, we went to Hiroshima. While we were there, we were able to go to the Hiroshima Peace Museum, where the first bomb was dropped. This image is of the Genbaku Dome, which was very close to the impact site.">
+      <img src="images/himeji_castle.jpg"  data-title="Himeji Castle" data-description="This is Himeji Castle, one of the most well-preserved castles from the Tokugawa Era of Japan.">
+      <img src="images/itsukushima_shrine.jpg"  data-title="Itsukushima Shrine" data-description="This picture is of the 'floating' Torii gate located at Itsukushima island. Other than the Himeji Castle, this is one of the most recognizable landmarks of Japan.">
+      <img src="images/kyoto_bridge.jpg"  data-title="Kyoto Bridge" data-description="For the last two weeks, we stayed in Kyoto. Here's a scenic view of a lengthy bridge spanning this river.">
     </div>
-      <script>
-        (function() {
-          Galleria.loadTheme("js/galleria-1.6.1/dist/themes/miniml/galleria.miniml.min.js");
-          Galleria.run(".galleria");
-        }());
-      </script>
-    <img src = "images/tokyo_at_night.jpg" alt = "Tokyo At Night" />
-    <p>For the first two weeks, we stayed in Tokyo. It was the tail-end of the rainy season while we were there, but that made it all the more beautiful at night.</p>
-    
-    <img src = "images/genbaku_dome.jpg" alt = "Genbaku Dome" />
-    <p>During the next week, we went to Hiroshima. While we were there, we were able to go to the Hiroshima Peace Museum, where the first bomb was dropped. This image is of the Genbaku Dome, which was very close to the impact site.</p>
-
-    <img src = "images/himeji_castle.jpg" alt = "Himeji Castle" />
-    <p>This is Himeji Castle, one of the most well-preserved castles from the Tokugawa Era of Japan.</p>
-
-    <img src = "images/itsukushima_shrine.jpg" alt = "Itsukushima Shrine" />
-    <p>This picture is of the "floating" Torii gate located at Itsukushima island. Other than the Himeji Castle, this is one of the most recognizable landmarks of Japan.</p>
-
-    <img src = "images/kyoto_bridge.jpg" alt = "Kyoto Bridge" />
-    <p>For the last two weeks, we stayed in Kyoto. Here's a scenic view of a lengthy bridge spanning this river.</p>
-
+    <script>
+      (function() {
+        Galleria.loadTheme("js/galleria-1.6.1/dist/themes/miniml/galleria.miniml.min.js");
+        Galleria.run(".galleria");
+      }());
+    </script>
   </body>
 </html>
